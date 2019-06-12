@@ -1,0 +1,13 @@
+body {
+  background-image: url("__STATIC__/image/background.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start; }
+
+.white {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 16px; }
+
+/*# sourceMappingURL=index.css.map */

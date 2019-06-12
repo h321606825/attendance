@@ -1,0 +1,976 @@
+[ 2018-05-13T10:07:30+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023155s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0096s ]
+SQL: SELECT * from user [ RunTime:0.0005s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012778s ]
+
+[ 2018-05-13T10:07:31+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0088s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2018-05-13T10:11:00+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2018-05-13T10:12:38+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0177s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224414','67885f51e3f936ab3b66169056ddd56f','赵桐','3','3','15663601130','531784003@qq.com') [ RunTime:0.1066s ]
+
+[ 2018-05-13T10:12:39+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-05-13T10:13:20+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.3491s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0006s ]
+SQL: select id from job_info where job_name ="后台开发工程师" [ RunTime:0.0006s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0282s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016214356','e73e28d98c6bf62cf8a121e0ca350ad1','杜雨霖','3','1','15663771301','787999749@qq.com') [ RunTime:0.0605s ]
+
+[ 2018-05-13T10:13:21+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-05-13T10:13:25+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0118s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2018-05-13T10:13:27+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2018-05-13T10:14:22+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0198s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0087s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2018-05-13T10:14:39+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0741s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0447s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-05-13T10:14:46+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-05-13T10:15:22+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0187s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224512','827d6a788a977cdde9775c4865874c9e','刘珊珊','3','3','17382867603','1274923710@qq.com') [ RunTime:0.1034s ]
+
+[ 2018-05-13T10:15:23+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2018-05-13T10:15:55+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0158s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0166s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224510','101123062f84fc189740f128ca0820c9','李小雪','3','3','15663612208','523786175@qq.com') [ RunTime:0.0783s ]
+
+[ 2018-05-13T10:15:56+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2018-05-13T10:16:35+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0172s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016214235','c27ca2cacb121489a5d2031b5cc8d1d5','陈智宇','3','3','15546609382','742062262@qq.com') [ RunTime:0.1110s ]
+
+[ 2018-05-13T10:16:36+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-05-13T10:17:04+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0154s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="后台开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016214238','dcbdd19ec64d3c7a6d9bd4e5e6ad6396','董晶雄','3','1','15663592980','1530916212@qq.com') [ RunTime:0.0851s ]
+
+[ 2018-05-13T10:17:05+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2018-05-13T10:17:38+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0161s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0181s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="后台开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016210686','6347ad83f34870933209015b133cc4a1','韩伟华','3','1','18800462819','321606825@qq.com') [ RunTime:0.0948s ]
+
+[ 2018-05-13T10:17:39+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-05-13T10:18:04+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0164s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0003s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224408','88ed9e8676cd8ef1ccea88054c8c40bf','代靖','3','3','18800463620','d_jingle@163.com') [ RunTime:0.1021s ]
+
+[ 2018-05-13T10:18:06+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2018-05-13T10:18:37+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0858s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0090s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="后台开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0109s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016214234','d9dd1174d1ba1512aeda5dd2982925ce','陈鑫','3','1','18846134759','1293872055@qq.com') [ RunTime:0.1105s ]
+
+[ 2018-05-13T10:18:38+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2018-05-13T10:19:22+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0151s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="前端开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224230','ecff6491806f21b6ed18d8b41a8e6cd1','闻雅','3','3','18846447303','1759768433@qq.com') [ RunTime:0.0863s ]
+
+[ 2018-05-13T10:19:23+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-05-13T10:19:59+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0227s ]
+SQL: select id from dep_info where dep_name ="产品部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="产品运维师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016224263','9208d98a6f20257fb55b88c67b8d2cbc','周百舸','1','2','18800462837','512955156@qq.com') [ RunTime:0.0871s ]
+
+[ 2018-05-13T10:20:00+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2018-05-13T10:20:36+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0167s ]
+SQL: select id from dep_info where dep_name ="技术部" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="后台开发工程师" [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: INSERT INTO `user` (`work_id`,`password`,`name`,`dep_id`,`job_id`,`telphone`,`email`) VALUES ('2016214420','1bcdb9854605554bd8d42c004eb16ff5','马金良','3','1','15546220339','2528604998@qq.com') [ RunTime:0.0697s ]
+
+[ 2018-05-13T10:20:37+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2018-05-13T10:22:09+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0087s ]
+SQL: SELECT * from user [ RunTime:0.0005s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2018-05-13T10:22:10+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0221s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0206s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0194s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2018-05-13T10:22:33+08:00 ] 127.0.0.1 /index.php/Home/UserInfo/deleteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: delete from kaoqin where work_id = "2015214177" [ RunTime:0.1168s ]
+SQL: delete from user where work_id = "2015214177" [ RunTime:0.1438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2018-05-13T10:22:35+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0098s ]
+SQL: SELECT * from user [ RunTime:0.0006s ]
+SQL: select * from job_info [ RunTime:0.0006s ]
+SQL: select * from dep_info [ RunTime:0.0004s ]
+SQL: select * from kaoqin [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-05-13T10:22:37+08:00 ] 127.0.0.1 /index.php/Home/UserInfo/deleteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0189s ]
+SQL: delete from kaoqin where work_id = "2015214187" [ RunTime:0.0983s ]
+SQL: delete from user where work_id = "2015214187" [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2018-05-13T10:22:38+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0226s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0113s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2018-05-13T10:22:41+08:00 ] 127.0.0.1 /index.php/Home/UserInfo/deleteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0165s ]
+SQL: delete from kaoqin where work_id = "2015224196" [ RunTime:0.0975s ]
+SQL: delete from user where work_id = "2015224196" [ RunTime:0.0414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-05-13T10:22:42+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0116s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2018-05-13T10:22:44+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0117s ]
+SQL: SELECT * from user [ RunTime:0.0005s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-05-13T10:22:52+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-05-13T10:22:53+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0100s ]
+SQL: SELECT * from user [ RunTime:0.0005s ]
+SQL: select * from job_info [ RunTime:0.0004s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+

@@ -1,0 +1,2668 @@
+[ 2017-07-26T11:19:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012710s ]
+
+[ 2017-07-26T11:19:28+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0728s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0088s ]
+
+[ 2017-07-26T11:19:28+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-07-26T11:19:51+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-07-26T11:19:52+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0703s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0152s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0327s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-07-26T11:20:02+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0796s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0088s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-07-26T11:20:10+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-07-26T11:20:19+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0111s ]
+SQL: select id from dep_info where dep_name ="" [ RunTime:0.0003s ]
+SQL: select id from job_info where job_name ="" [ RunTime:0.0002s ]
+
+[ 2017-07-26T11:20:40+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-07-26T11:20:41+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0085s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-07-26T11:20:42+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0104s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2017-07-26T11:20:52+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2017-07-26T11:20:54+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0152s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0106s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0004s ]
+SQL: UPDATE kaoqin SET start = "2017-07-26 11:20:54", day = 3 WHERE work_id = 2015214177 [ RunTime:0.1252s ]
+
+[ 2017-07-26T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0098s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-07-26T11:21:26+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-07-26T11:21:28+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-07-26T11:21:28+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-07-26T11:21:44+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0127s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-07-26T11:21:52+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-07-26T11:21:52+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-07-26T11:21:54+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0147s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015224222 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T11:21:54+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-07-26T11:21:56+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0409s ]
+SQL: select work_id from kaoqin where work_id=2015224222 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224222 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET start = "2017-07-26 11:21:56", day = 2 WHERE work_id = 2015224222 [ RunTime:0.0949s ]
+
+[ 2017-07-26T11:21:59+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0092s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-07-26T11:23:55+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-07-26T11:23:56+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0142s ]
+SQL: select work_id from kaoqin where work_id=2015224222 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224222 [ RunTime:0.0002s ]
+
+[ 2017-07-26T11:47:05+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0169s ]
+SQL: select work_id from kaoqin where work_id=2015224222 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224222 [ RunTime:0.0002s ]
+
+[ 2017-07-26T11:49:00+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-07-26T11:49:01+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0177s ]
+SQL: select work_id from kaoqin where work_id=2015224222 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224222 [ RunTime:0.0002s ]
+
+[ 2017-07-26T11:49:35+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-07-26T11:49:35+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-07-26T11:49:42+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0153s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T11:49:42+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-07-26T11:49:44+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0148s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET start = "2017-07-26 11:49:44", day = 4 WHERE work_id = 2015214177 [ RunTime:0.0965s ]
+
+[ 2017-07-26T11:49:59+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0162s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+
+[ 2017-07-26T11:51:11+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0142s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 11:51:11" WHERE work_id = 2015214177 [ RunTime:0.1025s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T11:52:02+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0181s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 11:52:02" WHERE work_id = 2015214177 [ RunTime:0.1103s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T06:54:29+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0149s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET start = "2017-07-26 06:54:29", day = 5 WHERE work_id = 2015214177 [ RunTime:0.1200s ]
+
+[ 2017-07-26T18:54:47+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0183s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 18:54:47" WHERE work_id = 2015214177 [ RunTime:0.1202s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T18:56:12+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0160s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 18:56:12" WHERE work_id = 2015214177 [ RunTime:0.1370s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T19:00:03+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0168s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 19:00:03" WHERE work_id = 2015214177 [ RunTime:0.1109s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T19:00:51+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0179s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 19:00:51" WHERE work_id = 2015214177 [ RunTime:0.1106s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T19:01:58+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2017-07-26T19:02:00+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0902s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+
+[ 2017-07-26T19:02:19+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2017-07-26T19:02:20+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0115s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 19:02:20" WHERE work_id = 2015214177 [ RunTime:0.0504s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T19:06:23+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+ERR: syntax error, unexpected ';'
+
+[ 2017-07-26T19:06:25+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: syntax error, unexpected ';'
+
+[ 2017-07-26T19:08:26+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: syntax error, unexpected ';'
+
+[ 2017-07-26T19:08:35+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-07-26T19:08:36+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0153s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 19:08:36" WHERE work_id = 2015214177 [ RunTime:0.0643s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T12:09:56+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0209s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0158s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0095s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-07-26T12:11:14+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-07-26T12:11:15+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-26T12:11:15+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-07-26T12:11:19+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0168s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015224888 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T12:11:19+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-07-26T12:11:20+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0180s ]
+SQL: select work_id from kaoqin where work_id=2015224888 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224888 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 12:11:20" WHERE work_id = 2015224888 [ RunTime:0.0875s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T12:15:33+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0164s ]
+SQL: select work_id from kaoqin where work_id=2015224888 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224888 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 12:15:33" WHERE work_id = 2015224888 [ RunTime:0.0822s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T12:23:13+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2017-07-26T12:23:29+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0126s ]
+SQL: select work_id from kaoqin where work_id=2015224888 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224888 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 12:23:29" WHERE work_id = 2015224888 [ RunTime:0.0645s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T12:24:39+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-07-26T12:24:39+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-07-26T12:24:47+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0151s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T12:24:54+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0153s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T12:24:54+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-07-26T12:24:55+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0179s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+
+[ 2017-07-26T12:25:04+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0140s ]
+SQL: select work_id from kaoqin where work_id=2015214177 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214177 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 12:25:04" WHERE work_id = 2015214177 [ RunTime:0.0553s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T13:19:27+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0081s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-07-26T13:20:37+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-07-26T13:20:40+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-07-26T13:20:40+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-07-26T13:20:50+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0149s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015224196 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T13:20:50+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-07-26T13:21:07+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0145s ]
+SQL: select work_id from kaoqin where work_id=2015224196 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224196 [ RunTime:0.0002s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 13:21:07" WHERE work_id = 2015224196 [ RunTime:0.1359s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T13:30:34+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0144s ]
+SQL: select work_id from kaoqin where work_id=2015224196 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224196 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 13:30:34" WHERE work_id = 2015224196 [ RunTime:0.1184s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T13:30:37+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0150s ]
+SQL: select work_id from kaoqin where work_id=2015224196 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224196 [ RunTime:0.0003s ]
+
+[ 2017-07-26T13:30:39+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0072s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-07-26T13:30:40+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0087s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-07-26T13:30:42+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0077s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-07-26T13:30:44+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0074s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-07-26T13:32:22+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0088s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-07-26T13:32:23+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0090s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-07-26T13:32:24+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0083s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-07-26T13:32:28+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-07-26T13:32:30+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-07-26T13:32:30+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-07-26T13:32:37+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0143s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 523445 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T13:32:37+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-07-26T13:32:41+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0145s ]
+SQL: select work_id from kaoqin where work_id=523445 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 523445 [ RunTime:0.0003s ]
+
+[ 2017-07-26T13:32:44+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0084s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-07-26T13:32:47+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0091s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-07-26T13:32:49+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-07-26T13:32:56+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0116s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0078s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-07-26T13:33:00+08:00 ] 127.0.0.1 /index.php/Home/UserInfo/deleteinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0155s ]
+SQL: delete from kaoqin where work_id = "523445" [ RunTime:0.1138s ]
+SQL: delete from user where work_id = "523445" [ RunTime:0.0653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-07-26T13:33:01+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0079s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0003s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-07-26T13:33:09+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0079s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-07-26T13:33:10+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0085s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-07-26T13:33:10+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0092s ]
+SQL: SELECT * from user [ RunTime:0.0004s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-07-26T13:33:11+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-07-26T13:33:11+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0073s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-07-26T13:39:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-07-26T13:39:13+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0209s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015224196 ) LIMIT 1   [ RunTime:0.0059s ]
+
+[ 2017-07-26T13:39:13+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-07-26T13:39:16+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-07-26T13:39:16+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-07-26T14:10:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.277788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.277852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010105s ]
+
+[ 2017-07-26T14:12:47+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0227s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T14:12:56+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T14:13:08+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0146s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214187 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T14:13:08+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-07-26T14:13:15+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0267s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0255s ]
+SQL: SELECT * from user [ RunTime:0.0008s ]
+SQL: select * from job_info [ RunTime:0.0005s ]
+SQL: select * from dep_info [ RunTime:0.0006s ]
+SQL: select * from kaoqin [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-07-26T14:13:18+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1143s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0193s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0188s ]
+SQL: SELECT * from user [ RunTime:0.0009s ]
+SQL: select * from job_info [ RunTime:0.0006s ]
+SQL: select * from dep_info [ RunTime:0.0005s ]
+SQL: select * from kaoqin [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2017-07-26T14:13:29+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0807s ]
+SQL: SELECT * from user [ RunTime:0.0008s ]
+SQL: select * from job_info [ RunTime:0.0005s ]
+SQL: select * from dep_info [ RunTime:0.0005s ]
+SQL: select * from kaoqin [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2017-07-26T14:13:31+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-07-26T14:13:34+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0144s ]
+SQL: select work_id from kaoqin where work_id=2015214187 [ RunTime:0.0004s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015214187 [ RunTime:0.0003s ]
+SQL: UPDATE kaoqin SET end = "2017-07-26 14:13:34" WHERE work_id = 2015214187 [ RunTime:0.1435s ]
+NOTIC: [8] Undefined variable: end D:\xampp\htdocs\Attendance\Application\Home\Controller\UserController.class.php 第 170 行.
+
+[ 2017-07-26T14:14:21+08:00 ] 127.0.0.1 /index.php/Home/User/sign_out
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-07-26T14:14:21+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-07-26T14:16:24+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-07-26T14:21:38+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0155s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015224196 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-26T14:21:38+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-07-26T14:22:21+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0146s ]
+SQL: select work_id from kaoqin where work_id=2015224196 [ RunTime:0.0003s ]
+SQL: SELECT start, end, day FROM kaoqin WHERE work_id = 2015224196 [ RunTime:0.0003s ]
+
+[ 2017-07-26T14:22:39+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0153s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0078s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Home\Controller\KaoqinInfoController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-07-26T14:23:06+08:00 ] 127.0.0.1 /index.php/Home/UserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0253s ]
+SQL: SELECT * from user [ RunTime:0.0003s ]
+SQL: select * from job_info [ RunTime:0.0002s ]
+SQL: select * from dep_info [ RunTime:0.0002s ]
+SQL: select * from kaoqin [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-07-26T14:23:11+08:00 ] 127.0.0.1 /index.php/Home/User/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+

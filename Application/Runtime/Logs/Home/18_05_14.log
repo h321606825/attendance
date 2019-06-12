@@ -1,0 +1,142 @@
+[ 2018-05-14T08:58:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.184227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.184279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020524s ]
+
+[ 2018-05-14T08:58:15+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0316s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-05-14T08:58:20+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0152s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2015214177 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-14T08:58:37+08:00 ] 127.0.0.1 /index.php/Home/User
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0162s ]
+SQL: SELECT `password` FROM `user` WHERE ( work_id = 2016224512 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-14T08:58:37+08:00 ] 127.0.0.1 /index.php/Home/User/kaoqin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-05-14T08:58:41+08:00 ] 127.0.0.1 /index.php/Home/KaoqinInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] Declaration of Home\Model\UserModel::check($work_id, $password) should be compatible with Think\Model::check($value, $rule, $type = 'regex') D:\xampp\htdocs\Attendance\Application\Home\Model\UserModel.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `dep_info` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `job_info` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `kaoqin` [ RunTime:0.0098s ]
+SQL: SELECT * from user [ RunTime:0.0005s ]
+SQL: select * from job_info [ RunTime:0.0004s ]
+SQL: select * from dep_info [ RunTime:0.0003s ]
+SQL: select * from kaoqin [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+NOTIC: [8] Undefined index: start D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 62 行.
+NOTIC: [8] Undefined index: end D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 63 行.
+NOTIC: [8] Undefined index: day D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 64 行.
+NOTIC: [8] Undefined index: status D:\xampp\htdocs\Attendance\Application\Runtime\Cache\Home\3692e44518463d0af4f250fbdd61fd8d.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+

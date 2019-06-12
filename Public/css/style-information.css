@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#box {
+  width: 9.73077rem;
+  height: 5.19231rem;
+  border: 4px solid #e8e9eb;
+  background-color: #ffffff;
+  border-radius: 5px; }
+
+#headbox {
+  width: 9.73077rem;
+  height: 0.38462rem;
+  background-color: #f7f8fc;
+  border-bottom: 4px solid #e8e9eb;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+/*# sourceMappingURL=style-information.css.map */
